@@ -1,9 +1,10 @@
-.icon-invert {
-  filter: invert(0); /* Modo claro: no invierte nada */
+.invert-icon {
+  filter: invert(0);
+  transition: filter 0.3s ease;
 }
 
 @media (prefers-color-scheme: dark) {
-  .icon-invert {
-    filter: invert(1) brightness(2); /* Modo oscuro: invierte y aclara */
+  .invert-icon {
+    filter: invert(1) brightness(1.5);
   }
 }
