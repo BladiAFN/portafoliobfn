@@ -1,9 +1,10 @@
 
-body.dark-mode img {
-  filter: invert(1);
+img {
+  color: #f8fafc;
 }
+
 @media (prefers-color-scheme: dark) {
   img {
-    filter: invert(1);
+    color:#030303 ;
   }
 }
