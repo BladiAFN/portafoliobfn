@@ -1,10 +1,10 @@
 
-img {
-  color: #f8fafc;
+.invert-icon {
+  filter: invert(1);
 }
 
 @media (prefers-color-scheme: dark) {
-  img {
-    color:#030303 ;
+  .invert-icon {
+    filter: invert(1);
   }
 }
