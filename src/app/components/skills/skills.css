@@ -1,6 +1,6 @@
 .invert-icon {
   background: white;
-  mask: url('assets/icons/database-server-svgrepo-com.svg') no-repeat center;
+  mask: url('/assets/icons/database-server-svgrepo-com.svg') no-repeat center;
   -webkit-mask: url('assets/icons/database-server-svgrepo-com.svg') no-repeat center;
   width: 28px;
   height: 28px;
