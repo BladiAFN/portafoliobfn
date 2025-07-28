@@ -1,3 +1,9 @@
-.icon-dark-mode {
+
+body.dark-mode img {
   filter: invert(1);
+}
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: invert(1);
+  }
 }
