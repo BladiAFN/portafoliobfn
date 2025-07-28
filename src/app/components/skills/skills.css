@@ -1,11 +1,9 @@
-/* Por defecto, íconos negros */
 .icon-invert {
   filter: invert(0);
 }
 
-/* En modo oscuro, invertir el color */
 @media (prefers-color-scheme: dark) {
   .icon-invert {
-    filter: invert(1) brightness(2);
+    filter: invert(1) brightness(1.5);
   }
 }
