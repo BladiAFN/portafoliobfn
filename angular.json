@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "potafolio": {
+    "portafolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-              "outputPath": "dist/potafolio/browser",
+              "outputPath": "dist/portafolio/browser",
 
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "potafolio:build:production"
+              "buildTarget": "portafolio:build:production"
             },
             "development": {
-              "buildTarget": "potafolio:build:development"
+              "buildTarget": "portafolio:build:development"
             }
           },
           "defaultConfiguration": "development"
