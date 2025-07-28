@@ -1,9 +1,10 @@
-.icon-invert {
-  filter: invert(0);
+.invert-icon {
+  background: white;
+  mask: url('assets/icons/database-server-svgrepo-com.svg') no-repeat center;
+  -webkit-mask: url('assets/icons/database-server-svgrepo-com.svg') no-repeat center;
+  width: 28px;
+  height: 28px;
 }
-
-@media (prefers-color-scheme: dark) {
-  .icon-invert {
-    filter: invert(1) brightness(1.5);
-  }
+.dark-mode .invert-icon {
+  background: black;
 }
