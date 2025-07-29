@@ -1,8 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
@@ -19,6 +20,11 @@ export class Header {
         link.classList.add('nav-active');
       });
     });
+  }
+  activeSection: string = 'experience';
+
+  setActive(section: string): void {
+    this.activeSection = section;
   }
 
 }
