@@ -11,3 +11,15 @@
   <app-root></app-root>
 <script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="scripts-R2CV6CYB.js" defer></script><script src="main-VO5UFDH4.js" type="module"></script></body>
 </html>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('#hs-navbar-header-floating a');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('nav-active'));
+        link.classList.add('nav-active');
+      });
+    });
+  });
+</script>
