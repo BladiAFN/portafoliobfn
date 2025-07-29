@@ -15,8 +15,8 @@ a{
   text-decoration: none !important;
 }
 .nav-active {
-  border-color: #1f2937 !important; /* border-gray-800 */
-  color: #1f2937 !important;
+  border-color: #515151 !important; /* border-gray-800 */
+  color: #60a2fe !important;
   font-weight: 600;
 }
 .dark .nav-active {
