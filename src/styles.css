@@ -14,3 +14,12 @@
 a{
   text-decoration: none !important;
 }
+.nav-active {
+  border-color: #1f2937 !important; /* border-gray-800 */
+  color: #1f2937 !important;
+  font-weight: 600;
+}
+.dark .nav-active {
+  border-color: #e5e7eb !important; /* dark:border-neutral-200 */
+  color: #e5e7eb !important;
+}
