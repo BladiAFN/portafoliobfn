@@ -53,16 +53,5 @@
     </div>
   </nav>
 </header>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('#hs-navbar-header-floating a');
 
-    links.forEach(link => {
-      link.addEventListener('click', () => {
-        links.forEach(l => l.classList.remove('nav-active'));
-        link.classList.add('nav-active');
-      });
-    });
-  });
-</script>
 <!-- ========== END HEADER ========== -->

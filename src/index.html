@@ -11,3 +11,15 @@
   <app-root></app-root>
 </body>
 </html>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('#hs-navbar-header-floating a');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('nav-active'));
+        link.classList.add('nav-active');
+      });
+    });
+  });
+</script>

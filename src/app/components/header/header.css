@@ -1,6 +1,6 @@
 .nav-active {
-  border-color: #1f2937 !important; /* equivale a border-gray-800 */
-  color: #1f2937 !important; /* texto activo */
+  border-color: #1f2937 !important; /* border-gray-800 */
+  color: #1f2937 !important; /* text-gray-800 */
   font-weight: 600;
 }
 .dark .nav-active {
